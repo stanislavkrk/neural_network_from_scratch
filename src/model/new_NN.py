@@ -231,7 +231,7 @@ def prediction (x, w1, b1, w2, b2, letters_list):
 
     # Identify the class with the highest probability
     predicted_class = np.argmax(a2)
-    print(f"Ймовірності класів: {a2}")
-    print(f"Прогнозований клас: {predicted_class}")
-    print('Літера', letters_list[predicted_class])
+    print(f"Class probabilities: {a2}")
+    print(f"Predicted class: {predicted_class}")
+    print('Letter', letters_list[predicted_class])
     return predicted_class
