@@ -34,21 +34,21 @@ neural_network_from_scratch/
 ## 💡 **Key Concepts:**
 
 1. **Data Representation:**  
-   Letters are encoded as **binary vectors**, each represented as a **5x6 grid of pixels** (30 elements).  
-<br>
+   Letters are encoded as **binary vectors**, each represented as a **5x6 grid of pixels** (30 elements).
+
 2. **Network Architecture:**  
    - **Input Layer:** 30 neurons (one per pixel).  
    - **Hidden Layer:** 15 neurons (to balance capacity and simplicity).  
-   - **Output Layer:** 11 neurons (each representing a letter class).  
-<br>
+   - **Output Layer:** 11 neurons (each representing a letter class).
+
 3. **Learning Process:**  
    - **Forward Pass:** Input data flows through the network.  
    - **Loss Calculation:** Using **cross-entropy loss**.  
    - **Backpropagation:** Computes gradients for weight updates.  
-   - **Gradient Descent:** Adjusts weights to minimize the loss.  
-<br>
+   - **Gradient Descent:** Adjusts weights to minimize the loss.
+
 4. **Edge Cases:**  
-   The network is tested with **noisy inputs** to evaluate its robustness.  
+   The network is tested with **noisy inputs** to evaluate its robustness.
 
 ---
 
